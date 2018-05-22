@@ -11,7 +11,6 @@
 > 给定N个训练样本（x1, y1), (x2, y2), ..., (xN, yN), 其中xi是一个n维向量用来表示第i个样本在这n个特征上的取值，yi {-1, +1}表示了这个样本是正样本还是负样本。逻辑回归模型就是通过一个叫做sigmoid函数 ![PNG](../images/formula_sigmoid.png)将第i个样本的特征向量xi与该样本为正样本的概率联系了起来
 > 
 > 概率函数如下：<br>
-<p(y_{i} = \pm 1| x_{i}, w) = \sigma (y_{i}{w}^Tx_{i}) = \frac{1}{1 + exp(-y_{i}{w}^Tx_{i})}>
 > <center> ![PNG](../images/formula_lr_prob.png) </center>
 > 这个公式是怎么来的呢？
 > 由于sigmoid函数具有良好的性质，在这个函数就能够体现出来了:
